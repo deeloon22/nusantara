@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suku Sunda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sunda.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left"> 
+            <div class="back"> 
+                <a href="file:///C:/Users/daffa/Downloads/Projek%20SI/Projek%20SI/index.html">Kembali</a>
+            </div>
+        </div>
+        <div class="header-navigation">
+            <div class="header">Suku Sunda</div>               
+            <div class="menu">
+                <ul>
+                    <li><a href="#tentang">Deskripsi</a></li>
+                    <li><a href="#rumah-adat">Rumah Adat</a></li>
+                    <li><a href="#makanan-khas">Makanan Khas</a></li>
+                    <li><a href="#baju-adat">Baju Adat</a></li>
+                    <li><a href="#tradisi-unik">Tradisi Unik</a></li>
+                    <li><a href="#letak">Letak Geografis</a></li>
+                </ul>
+            </div>               
+        </div>
+    </nav>
+
+    <main class="content">
+        <section id="tentang" class="section">
+            <div id="carousel-tentang" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/deskripsi-1.jpg" alt="deskripsi-1" class="section-image">
+                    <img src="img/deskripsi-2.jpg" alt="deskripsi-2" class="section-image">
+                    <img src="img/sunda awal.jpg" alt="deskripsi-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-tentang', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-tentang', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Suku Sunda</p>
+                <h2>Keindahan Budaya Sunda</h2>
+                <p>Suku Sunda adalah salah satu suku terbesar di Indonesia, yang terkenal dengan keramahan, 
+                    budaya yang kaya, serta warisan seni yang luar biasa. Dari tradisi unik hingga kuliner khas, Sunda adalah 
+                    salah satu permata budaya Indonesia yang tak ternilai.</p>
+                <a href="https://youtu.be/uHxOrbdUBjQ?si=RLjguT1RNO3yXh5T"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="rumah-adat" class="section">
+            <div class="section-content">
+                <p class="section-title">Rumah Adat</p>
+                <h2>Khas Sunda</h2>
+                <p>Rumah adat Sunda memiliki ciri khas dengan desain yang sederhana namun elegan, menggunakan 
+                    material alami seperti kayu dan bambu. Bentuk atap yang melengkung disebut "Jolopong" adalah 
+                    simbol harmoni dengan alam.</p>
+                <a href="https://www.gramedia.com/literasi/mengenal-rumah-adat-sunda/
+                ?srsltid=AfmBOopQuHVwUpXqszDvhZFvZ0yi3ziqu_F7bLmiSLmZvBD2ZLISxTri"><b>Lihat Detail</b></a>
+            </div>
+            <div id="carousel-rumah-adat" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/rumah-adat-1.jpg" alt="rumah-adat-1" class="section-image">
+                    <img src="img/rumah-adat-2.jpg" alt="rumah-adat-2" class="section-image">
+                    <img src="img/rumah-adat-3.jpg" alt="rumah-adat-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-rumah-adat', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-rumah-adat', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="makanan-khas" class="section">
+            <div id="carousel-makanan" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/makanan-1.jpg" alt="makanan-1" class="section-image">
+                    <img src="img/makanan-2.jpg" alt="makanan-2" class="section-image">
+                    <img src="img/makanan-3.jpg" alt="makanan-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-makanan', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-makanan', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Makanan Khas</p>
+                <h2>Citarasa Lezat dari Sunda</h2>
+                <p>Makanan khas Sunda terkenal dengan rasa segar dan kaya rempah. Beberapa makanan favorit termasuk nasi liwet, 
+                    karedok, dan ikan bakar dengan sambal khas Sunda yang menggoda selera.</p>
+                <a href="https://www.tokopedia.com/blog/minuman-makanan-khas-sunda/?utm_source=google&utm_medium=organic"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="baju-adat" class="section">
+            <div class="section-content">
+                <p class="section-title">Baju Adat</p>
+                <h2>Keanggunan Baju Adat Sunda</h2>
+                <p>Baju adat Sunda mencerminkan nilai kesopanan dan keindahan. Untuk pria, 
+                    biasanya memakai baju pangsi hitam dengan ikat kepala khas Sunda. Sedangkan wanita mengenakan kebaya berwarna cerah yang 
+                    dipadukan dengan kain batik bermotif khas.</p>
+                <a href="https://www.gramedia.com/literasi/pakaian-adat-jawa-barat/?
+                srsltid=AfmBOoowrelh4SZSRFBBzaRdi8qvGNmPG4KCWubC3-AILC6sadYmWYEg"><b>Lihat Detail</b></a>
+            </div>
+            <div id="carousel-baju-adat" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/baju-adat-1.jpg" alt="baju-adat-1" class="section-image">
+                    <img src="img/baju-adat-2.jpg" alt="baju-adat-2" class="section-image">
+                    <img src="img/baju-adat-3.jpg" alt="baju-adat-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-baju-adat', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-baju-adat', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="tradisi-unik" class="section">
+            <div id="carousel-tradisi" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/tradisi-1.jpg" alt="tradisi-1" class="section-image">
+                    <img src="img/tradisi-2.jpg" alt="tradisi-2" class="section-image">
+                    <img src="img/tradisi-3.jpg" alt="tradisi-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-tradisi', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-tradisi', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Tradisi Unik</p>
+                <h2>Keberagaman Tradisi Sunda</h2>
+                <p>Sunda memiliki tradisi unik seperti upacara Seren Taun, yang merupakan bentuk rasa syukur atas hasil panen. 
+                    Tradisi lainnya adalah permainan rakyat seperti Angklung dan pertunjukan seni Tari Jaipong, yang menggambarkan 
+                    semangat dan kegembiraan masyarakat Sunda.</p>
+                <a href="https://www.traveloka.com/id-id/explore/destination/tradisi-sunda-acc/386156"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="letak" class="section">
+            <div class="section-content">
+                <p class="section-title">Letak Geografis</p>
+                <h2>Lokasi Strategis Suku Sunda</h2>
+                <p>Suku Sunda umumnya tinggal di wilayah Jawa Barat, sebagian Banten, dan Jakarta. 
+                    Dengan keindahan alam seperti pegunungan, sawah hijau, dan pantai yang memukau, 
+                    daerah ini menjadi salah satu yang terkaya secara geografis di Indonesia.</p>
+            </div>
+            <div id="carousel-lokasi" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <a href="https://maps.app.goo.gl/TtVj5bGQcZt6ho9w9"><img src="img/peta.jpg" alt="Lokasi" class="section-image"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Budaya Nusantara</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suku Melayu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Melayu.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left"> 
+            <div class="back"> 
+                <a href="file:///C:/Users/daffa/Downloads/Projek%20SI/Projek%20SI/index.html">Kembali</a>
+            </div>
+        </div>
+        <div class="header-navigation">
+            <div class="header">Suku Melayu</div>               
+            <div class="menu">
+                <ul>
+                    <li><a href="#tentang">Deskripsi</a></li>
+                    <li><a href="#rumah-adat">Rumah Adat</a></li>
+                    <li><a href="#makanan-khas">Makanan Khas</a></li>
+                    <li><a href="#baju-adat">Baju Adat</a></li>
+                    <li><a href="#tradisi-unik">Tradisi Unik</a></li>
+                    <li><a href="#letak">Letak Geografis</a></li>
+                </ul>
+            </div>               
+        </div>
+    </nav>
+
+    <main class="content">
+        <section id="tentang" class="section">
+            <div id="carousel-tentang" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/deskripsi-1.jpg" alt="deskripsi-1" class="section-image">
+                    <img src="img/deskripsi-2.jpg" alt="deskripsi-2" class="section-image">
+                    <img src="img/deskripsi-3.jpg" alt="deskripsi-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-tentang', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-tentang', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Suku Melayu</p>
+                <h2>Keindahan Budaya Melayu</h2>
+                <p>Suku Melayu merupakan salah satu suku terbesar di Indonesia, dengan budaya yang kaya, 
+                    termasuk bahasa, sastra, dan seni yang sangat khas. Suku ini tersebar di seluruh Indonesia,
+                    dengan pusat kebudayaan di wilayah Sumatra dan Kalimantan.</p>
+                <a href="https://youtu.be/Tp82nP57vpo?si=0TgrxVrBlHKko_Mv"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="rumah-adat" class="section">
+            <div class="section-content">
+                <p class="section-title">Rumah Adat</p>
+                <h2>Khas Melayu</h2>
+                <p>Rumah adat Melayu yang terkenal adalah rumah Limas. Dengan atap berbentuk limas, 
+                    rumah ini mencerminkan filosofi hidup masyarakat Melayu yang berbudi luhur dan dekat dengan alam.</p>
+                <a href="https://www.gramedia.com/literasi/rumah-adat-melayu/
+                ?srsltid=AfmBOorKmQewoxsKQ28quAZcxTK9oj_twDZHF2D830MQD1H3ZWkdxhY2"><b>Lihat Detail</b></a>
+            </div>
+            <div id="carousel-rumah-adat" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/rumah-adat-1.jpg" alt="rumah-adat-1" class="section-image">
+                    <img src="img/rumah-adat-2.webp" alt="rumah-adat-2" class="section-image">
+                    <img src="img/rumah-adat-3.jpg" alt="rumah-adat-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-rumah-adat', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-rumah-adat', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="makanan-khas" class="section">
+            <div id="carousel-makanan" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/makanan-1.webp" alt="makanan-1" class="section-image">
+                    <img src="img/makanan-2.jpg" alt="makanan-2" class="section-image">
+                    <img src="img/makanan-3.jpg" alt="makanan-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-makanan', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-makanan', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Makanan Khas</p>
+                <h2>Citarasa Lezat dari Melayu</h2>
+                <p>Makanan khas Melayu, seperti rendang, gulai ikan, dan nasi lemak, 
+                    memiliki cita rasa yang kaya akan rempah-rempah, memberikan sensasi rasa yang kuat namun lezat.</p>
+                <a href="https://cookpad.com/id/cari/masakan%20melayu"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="baju-adat" class="section">
+            <div class="section-content">
+                <p class="section-title">Baju Adat</p>
+                <h2>Keanggunan Baju Adat Melayu</h2>
+                <p>Baju adat Melayu terdiri dari baju kurung untuk perempuan dan baju melayu untuk laki-laki. 
+                    Pakaian ini biasanya dipadukan dengan sarung atau kain songket, 
+                    yang menambah kesan elegan dan anggun.</p>
+                <a href="https://www.detik.com/edu/detikpedia/d-7070339/8-baju-adat-melayu-riau-yang-wajib-kamu-ketahui"><b>Lihat Detail</b></a>
+            </div>
+            <div id="carousel-baju-adat" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/baju- adat-1.webp" alt="baju-adat-1" class="section-image">
+                    <img src="img/baju-adat-2.avif" alt="baju-adat-2" class="section-image">
+                    <img src="img/baju-adat-3.webp" alt="baju-adat-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-baju-adat', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-baju-adat', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="tradisi-unik" class="section">
+            <div id="carousel-tradisi" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/tradisi-1.jpg" alt="tradisi-1" class="section-image">
+                    <img src="img/tradisi-2.jpg" alt="tradisi-2" class="section-image">
+                    <img src="img/tradisi-3.jpeg" alt="tradisi-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-tradisi', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-tradisi', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Tradisi Unik</p>
+                <h2>Keberagaman Tradisi Melayu</h2>
+                <p>Tradisi Melayu sangat kental dengan nilai-nilai adat, seperti perayaan hari raya, 
+                    upacara pernikahan, dan kesenian seperti tarian zapin,
+                     yang menggambarkan keramahtamahan dan kekuatan budaya Melayu.</p>
+                <a href="https://www.ranahriau.com/berita-2903-hhmm-ternyata-tradisi-
+                budaya-melayu-banyak-macam-nya-diantaranya-ini.html"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="letak" class="section">
+            <div class="section-content">
+                <p class="section-title">Letak Geografis</p>
+                <h2>Lokasi Strategis Suku Melayu</h2>
+                <p>Suku Melayu tersebar di wilayah-wilayah pesisir Indonesia, terutama di Sumatra, Riau, dan Kalimantan. 
+                    Wilayah ini memiliki kekayaan alam yang melimpah dan merupakan jalur perdagangan penting di Asia Tenggara.</p>
+            </div>
+            <div id="carousel-lokasi" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <a href="https://maps.app.goo.gl/tnjbeJRsXNNoKAZNA"><img src="img/peta.jpg" alt="Lokasi" class="section-image"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Budaya Nusantara</p>
+    </footer>
+</body>
+</html>

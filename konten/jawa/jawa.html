@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suku Jawa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jawa.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left"> 
+            <div class="back"> 
+                <a href="file:///C:/Users/daffa/Downloads/Projek%20SI/Projek%20SI/index.html">Kembali</a>
+            </div>
+        </div>
+        <div class="header-navigation">
+            <div class="header">Suku Jawa</div>               
+            <div class="menu">
+                <ul>
+                    <li><a href="#tentang">Deskripsi</a></li>
+                    <li><a href="#rumah-adat">Rumah Adat</a></li>
+                    <li><a href="#makanan-khas">Makanan Khas</a></li>
+                    <li><a href="#baju-adat">Baju Adat</a></li>
+                    <li><a href="#tradisi-unik">Tradisi Unik</a></li>
+                    <li><a href="#letak">Letak Geografis</a></li>
+                </ul>
+            </div>               
+        </div>
+    </nav>
+
+    <main class="content">
+        <section id="tentang" class="section">
+            <div id="carousel-tentang" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/tentang 1.jpg" alt="deskripsi-1" class="section-image">
+                    <img src="img/tentang 2.jpg" alt="deskripsi-2" class="section-image">
+                    <img src="img/tentang 3.jpg" alt="deskripsi-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-tentang', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-tentang', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Suku Jawa</p>
+                <h2>Keindahan Budaya Jawa</h2>
+                <p>Suku Jawa adalah suku terbesar di Indonesia yang terkenal dengan tradisi kejawen, 
+                    tata krama, dan budaya yang sarat makna. Bahasa Jawa memiliki tingkatan dalam penggunaannya, 
+                    mencerminkan kesopanan yang mendalam.</p>
+                <a href="https://youtu.be/6Rk2IfGlHMs?si=KtrUr7WUw0TxeQ1R"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="rumah-adat" class="section">
+            <div class="section-content">
+                <p class="section-title">Rumah Adat</p>
+                <h2>Khas Jawa</h2>
+                <p>Rumah adat Jawa yang paling dikenal adalah Joglo. Dengan desain atap tinggi dan ruang luas, 
+                    rumah ini mencerminkan harmoni, kenyamanan, dan filosofi Jawa yang mendalam.</p>
+                <a href="https://www.ruparupa.com/blog/5-macam-rumah-adat-jawa-tengah-dan-penjelasannya/"><b>Lihat Detail</b></a>
+            </div>
+            <div id="carousel-rumah-adat" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/rumah adat 1.png" alt="rumah-adat-1" class="section-image">
+                    <img src="img/rumah adat 2.webp" alt="rumah-adat-2" class="section-image">
+                    <img src="img/rumah adat 3.png" alt="rumah-adat-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-rumah-adat', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-rumah-adat', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="makanan-khas" class="section">
+            <div id="carousel-makanan" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/makanan 1.webp" alt="makanan-1" class="section-image">
+                    <img src="img/makanan 2.webp" alt="makanan-2" class="section-image">
+                    <img src="img/makanan 3.jpg" alt="makanan-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-makanan', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-makanan', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Makanan Khas</p>
+                <h2>Citarasa Lezat dari Jawa</h2>
+                <p>Makanan khas Jawa seperti gudeg, pecel, dan rawon memiliki rasa manis dan gurih yang memanjakan lidah. 
+                    Makanan ini sering disajikan dengan nasi putih dan sambal yang khas.</p>
+                <a href="https://mediaindonesia.com/kuliner/699352/10-makanan-khas-jawa-tengah-terfavorit-wajib-dicoba"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="baju-adat" class="section">
+            <div class="section-content">
+                <p class="section-title">Baju Adat</p>
+                <h2>Keanggunan Baju Adat Jawa</h2>
+                <p>aBaju adat Jawa mencakup kebaya untuk wanita dan beskap lengkap dengan blangkon untuk pria. 
+                    Setiap pakaian memiliki motif dan warna yang mencerminkan status sosial serta acara tertentu.</p>
+                <a href="https://www.orami.co.id/magazine/pakaian-adat-jawa-tengah"><b>Lihat Detail</b></a>
+            </div>
+            <div id="carousel-baju-adat" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/pakaian 1.jpg" alt="baju-adat-1" class="section-image">
+                    <img src="img/pakaian 2.webp" alt="baju-adat-2" class="section-image">
+                    <img src="img/pakaian 3.jpg" alt="baju-adat-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-baju-adat', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-baju-adat', 1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="tradisi-unik" class="section">
+            <div id="carousel-tradisi" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <img src="img/tradisi 1.jpeg" alt="tradisi-1" class="section-image">
+                    <img src="img/tradisi 2.jpg" alt="tradisi-2" class="section-image">
+                    <img src="img/tradisi 3.jpg" alt="tradisi-3" class="section-image">
+                </div>
+                <button class="prev" onclick="moveSlide('carousel-tradisi', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('carousel-tradisi', 1)">&#10095;</button>
+            </div>
+            <div class="section-content">
+                <p class="section-title">Tradisi Unik</p>
+                <h2>Keberagaman Tradisi Jawa</h2>
+                <p>Tradisi seperti Sekaten dan Grebeg Maulud adalah bentuk penghormatan dan perayaan adat Jawa. Selain itu, 
+                    seni seperti Wayang Kulit dan Gamelan juga menjadi ikon budaya Jawa yang mendunia.</p>
+                <a href="https://www.traveloka.com/id-id/explore/destination/tradisi-jawa-tengah-acc/386142"><b>Lihat Detail</b></a>
+            </div>
+        </section>
+
+        <section id="letak" class="section">
+            <div class="section-content">
+                <p class="section-title">Letak Geografis</p>
+                <h2>Lokasi Strategis Suku Jawa</h2>
+                <p>Suku Jawa tersebar di pulau Jawa, terutama Jawa Tengah, Jawa Timur, dan DI Yogyakarta. 
+                    Pulau ini dikenal dengan tanahnya yang subur, membuatnya menjadi salah satu pusat peradaban di Indonesia.</p>
+            </div>
+            <div id="carousel-lokasi" class="carousel">
+                <div class="carousel-container" data-current-index="0">
+                    <a href="https://maps.app.goo.gl/RpEs2ENB2XwMGt4f7"><img src="img/peta.png" alt="Lokasi" class="section-image"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Budaya Nusantara</p>
+    </footer>
+</body>
+</html>
